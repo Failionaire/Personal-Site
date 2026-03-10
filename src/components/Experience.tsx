@@ -11,7 +11,7 @@ export default function Experience() {
       <SectionHeading>Experience</SectionHeading>
       <div className="relative">
         {/* Timeline line */}
-        <div className="absolute top-0 bottom-0 left-4 w-px bg-gradient-to-b from-purple-500/40 via-violet-500/20 to-transparent md:left-8" />
+        <div className="absolute top-0 bottom-0 left-4 w-px bg-gradient-to-b from-purple-500/40 via-violet-500/20 to-transparent md:left-8" aria-hidden="true" />
 
         <div className="flex flex-col gap-8">
           {resume.experience.map((job, i) => (
@@ -24,7 +24,7 @@ export default function Experience() {
               transition={{ duration: 0.6, delay: i * 0.1 }}
             >
               {/* Timeline dot */}
-              <div className="absolute left-2 top-8 flex h-5 w-5 items-center justify-center md:left-6">
+              <div className="absolute left-2 top-8 flex h-5 w-5 items-center justify-center md:left-6" aria-hidden="true">
                 <div className="h-3 w-3 rounded-full border-2 border-purple-400 bg-purple-400/20" />
                 <div className="absolute h-5 w-5 animate-ping rounded-full bg-purple-400/20" />
               </div>

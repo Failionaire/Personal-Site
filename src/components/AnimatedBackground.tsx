@@ -2,7 +2,7 @@
 
 export default function AnimatedBackground() {
   return (
-    <div className="animated-bg pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div className="animated-bg pointer-events-none fixed inset-0 -z-10 overflow-hidden" aria-hidden="true">
       {/* Primary gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(88,28,135,0.15)_0%,_transparent_60%)]" />
 

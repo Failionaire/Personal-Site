@@ -13,6 +13,7 @@ export const resume = {
     location: "Dublin, California",
     linkedin: "https://linkedin.com/in/tyler-armando-026615208",
     credly: "https://credly.com/users/tyler-armando",
+    github: "https://github.com/Failionaire",
   },
   summary:
     "IT Support Engineer with 10+ years of experience delivering enterprise IT services across macOS, Windows, and Linux environments. Proven track record managing endpoint fleets via Jamf and Active Directory, administering SaaS platforms including Google Workspace, Slack, and Microsoft 365, and implementing security controls across organizations of 150 to 1,000+ users. Experienced in scripting and automation (PowerShell, Bash, Python), identity and access management, endpoint security, and building scalable IT processes in high-growth and mission-critical environments. CompTIA Security+ certified with a strong foundation in infrastructure security and compliance. Actively leverages AI tools, including Claude, to streamline scripting workflows, troubleshoot technical issues, and improve documentation quality.",
@@ -119,7 +120,7 @@ export const resume = {
       location: "Fremont, CA",
       period: "September 2024 – Present",
       description:
-        "Sole IT engineer providing 24×7 on-call support for a semiconductor testing facility with mission-critical uptime requirements. Manage all aspects of IT operations including infrastructure, security, and end-user support across Windows and Linux systems.",
+        "Primary IT engineer providing 24×7 on-call support for a semiconductor testing facility with mission-critical uptime requirements. Manage all aspects of IT operations including infrastructure, security, and end-user support across Windows and Linux systems.",
       highlights: [
         "Administer and maintain critical infrastructure in a 24/7 ESD-controlled environment, ensuring continuous operation of semiconductor testing equipment with 99.9% uptime.",
         "Manage full IT operations lifecycle independently: system administration, security enforcement, endpoint management, user support, and vendor coordination.",

@@ -11,6 +11,9 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
+      <a href="#summary" className="skip-link">
+        Skip to content
+      </a>
       <AnimatedBackground />
       <Navbar />
       <main>

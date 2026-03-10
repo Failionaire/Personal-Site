@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import AlchemicalSigil from "./AlchemicalSigil";
 
 const navLinks = [
   { label: "About", href: "#summary" },
@@ -48,9 +49,15 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a
           href="#"
-          className="bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text font-heading text-xl font-bold text-transparent"
+          className="group relative flex items-center gap-2 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text font-heading text-xl font-bold text-transparent"
         >
+          <span className="inline-block h-9 w-9 opacity-70 transition-transform duration-300 group-hover:scale-150">
+            <AlchemicalSigil />
+          </span>
           TEA
+          <span className="pointer-events-none absolute top-full left-0 mt-2 whitespace-nowrap rounded-lg border border-white/10 bg-[#06060e]/95 px-3 py-1.5 font-sans text-xs font-normal italic text-purple-300/80 opacity-0 backdrop-blur-xl transition-opacity duration-300 group-hover:opacity-100">
+            Ex Silicio, cogitationes distillatae
+          </span>
         </a>
 
         {/* Desktop links */}
@@ -82,6 +89,8 @@ export default function Navbar() {
           className="flex flex-col gap-1.5 md:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle navigation menu"
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-menu"
         >
           <span className={`block h-0.5 w-6 bg-white/70 transition-transform ${mobileOpen ? "translate-y-2 rotate-45" : ""}`} />
           <span className={`block h-0.5 w-6 bg-white/70 transition-opacity ${mobileOpen ? "opacity-0" : ""}`} />
@@ -93,6 +102,7 @@ export default function Navbar() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
+            id="mobile-menu"
             className="border-b border-white/10 bg-[#06060e]/95 backdrop-blur-xl md:hidden"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}

@@ -21,7 +21,7 @@ PROFESSIONAL EXPERIENCE
 
 IT Specialist
 ISE Labs  |  Fremont, CA  |  September 2024 – Present
-Sole IT engineer providing 24×7 on-call support for a semiconductor testing facility with mission-critical uptime requirements. Manage all aspects of IT operations including infrastructure, security, and end-user support across Windows and Linux systems.
+Primary IT engineer providing 24×7 on-call support for a semiconductor testing facility with mission-critical uptime requirements. Manage all aspects of IT operations including infrastructure, security, and end-user support across Windows and Linux systems.
     • Administer and maintain critical infrastructure in a 24/7 ESD-controlled environment, ensuring continuous operation of semiconductor testing equipment with 99.9% uptime.
     • Manage full IT operations lifecycle independently: system administration, security enforcement, endpoint management, user support, and vendor coordination.
     • Conduct vulnerability scans and partner with engineering teams to translate operational needs into infrastructure improvements.
