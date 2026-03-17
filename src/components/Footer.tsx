@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
 
           <p className="mt-4 text-xs text-white/30">
-            &copy; {new Date().getFullYear()} {resume.name}. Built with Next.js.
+            &copy; {new Date().getFullYear()} {resume.name}. Built with Next.js &amp; Tailwind CSS &mdash; last updated March 2026.
           </p>
         </motion.div>
       </div>

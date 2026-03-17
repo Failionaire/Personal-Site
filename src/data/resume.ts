@@ -3,10 +3,12 @@ export const resume = {
   title: "IT Support Engineer",
   taglines: [
     "Enterprise IT Operations",
+    "macOS & Jamf Administration",
     "Security & Compliance",
     "Infrastructure Management",
     "Scripting & Automation",
   ],
+  bio: "An IT guy who builds tools to fix the problems I hit at work and home. Sharing the ones others might find useful too.",
   contact: {
     email: "tylerarmando@proton.me",
     phone: "(925)-640-1048",
@@ -104,6 +106,32 @@ export const resume = {
         "AV/Conference systems",
         "VMware vSphere",
       ],
+    },
+  ],
+  projects: [
+    {
+      name: "SpaceJamf",
+      description: "Diagnoses macOS endpoint failures — Jamf, Active Directory, certificates, clock, and network — in seconds, not support tickets.",
+      stack: "Swift",
+      url: "https://github.com/Failionaire/SpaceJamf",
+    },
+    {
+      name: "Computer-Onboarding",
+      description: "Automates the full Windows onboarding workflow — domain join, imaging, app deployment, and post-reboot validation — so a technician can walk away instead of babysit.",
+      stack: "C#",
+      url: "https://github.com/Failionaire/Computer-Onboarding",
+    },
+    {
+      name: "howard-clauder",
+      description: "Turns any GitHub repo into a deep, structured breakdown so you understand unfamiliar codebases before you touch them.",
+      stack: "TypeScript",
+      url: "https://github.com/Failionaire/howard-clauder",
+    },
+    {
+      name: "system-health-check",
+      description: "A cross-platform system health monitoring toolkit for IT support engineers. Run quick diagnostics on any machine using Python, Bash, or PowerShell. No agents or installs required.",
+      stack: "Python / Bash / PowerShell",
+      url: "https://github.com/Failionaire/system-health-check",
     },
   ],
   certifications: [

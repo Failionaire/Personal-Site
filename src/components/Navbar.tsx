@@ -7,6 +7,7 @@ import AlchemicalSigil from "./AlchemicalSigil";
 const navLinks = [
   { label: "About", href: "#summary" },
   { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
   { label: "Certs", href: "#certifications" },
   { label: "Experience", href: "#experience" },
   { label: "Education", href: "#education" },
